@@ -14,6 +14,7 @@ body {
 }
 
 #clock {
+    color: aqua;
     display: inline;
     font-size: 2em;
     font-weight: bold;

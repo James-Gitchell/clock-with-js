@@ -40,12 +40,10 @@ setInterval(function() {
     if(clock.hours === 24){
         clock.hours = 0;
     }
+    document.getElementById('clock').innerHTML = formatTime(clock.hours) + ":" + formatTime(clock.minutes) + ":" +
+    formatTime(clock.seconds);
 }, 1000);
 
-
-
-document.getElementById('clock').innerHTML = formatTime(clock.hours) + ":" + formatTime(clock.minutes) + ":" +
- formatTime(clock.seconds);}, 1000);
 
 
 
