@@ -1,0 +1,47 @@
+* {
+    margin:0 ;
+    padding: 0;
+}
+body {
+    background: #ccc;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#clock {
+    display: inline;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    background-color: #000;
+    letter-spacing: 1vw;
+    border: 2px solid blue;
+    /* user can not copy */
+    user-select: none;
+}
+
+#remove {
+    display: block;
+    margin: auto;
+    padding: 2rem 3rem;
+    color: snow;
+    background-color: red;
+    cursor: pointer;
+
+}
+#reset {
+    display: block;
+    margin: auto;
+    padding: 2rem 3rem;
+    color: snow;
+    background-color: red;
+    cursor: pointer;
+
+}
